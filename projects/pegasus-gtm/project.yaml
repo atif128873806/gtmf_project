@@ -1,0 +1,43 @@
+version: 1
+id: gtmf1-website
+name: GTMF1
+status: implementation
+description: Responsive Laravel marketing website based on the user-owned Figma homepage.
+repository:
+  path: .
+stack:
+  frontend:
+    - Blade
+    - CSS
+    - JavaScript
+  backend:
+    - Laravel 13
+    - PHP 8.5
+  database: []
+  infrastructure:
+    - Hostinger shared hosting with PHP 8.4 per-site runtime
+default_skills:
+  - frontend-ui-ux
+  - laravel-backend
+  - qa-review
+tools:
+  filesystem: true
+  terminal: true
+  git: false
+  browser: true
+  web: false
+  deployment: true
+verification:
+  - composer test
+  - npm run build
+docs:
+  overview: PROJECT.md
+  rules: AGENTS.md
+  requirements: REQUIREMENTS.md
+  architecture: ARCHITECTURE.md
+  design: DESIGN.md
+  decisions: DECISIONS.md
+  tasks: TASKS.md
+  context_index: context/CONTEXT_INDEX.md
+  sources: context/sources.yaml
+  handoff: memory/HANDOFF.md

@@ -1,0 +1,48 @@
+version: 1
+sources:
+  - id: SRC-FIGMA-001
+    type: figma-design
+    path: https://www.figma.com/design/G2NLV1j3E2tNPGNxKsDsbV/revops?node-id=7-5692&m=dev
+    roles:
+      - explicit-requirement
+      - visual
+      - structure
+      - ux
+    authority: user-approved
+    processing_status: processed
+    summary: >-
+      User-provided desktop homepage design. One 1920w light homepage frame with
+      layout, supplied assets, section composition, visible interaction states,
+      and a separate component sheet. It remains the visual source; the GTMF1
+      HTML source provides current company identity and service content.
+    received_at: '2026-10-19'
+    extracted_items:
+      - REQ-001
+      - REQ-002
+      - REQ-003
+      - REQ-004
+      - REQ-005
+      - REQ-006
+      - DEC-001
+      - DEC-002
+      - DEC-003
+      - DEC-004
+      - DEC-005
+  - id: SRC-GTMF1-001
+    type: html-reference
+    path: context/gtmf1_website_prototype.html
+    roles:
+      - explicit-requirement
+      - content
+      - brand
+    authority: user-approved
+    processing_status: processed
+    summary: >-
+      GTMF1 is a Revenue Infrastructure Partner. Its services include RevOps,
+      CRM and GTM systems, AI and automation, marketing operations, data and
+      intelligence, and migrations and transformation. The supplied HTML is
+      evidence for brand and service copy, not a replacement layout reference.
+    received_at: '2026-10-19'
+    extracted_items:
+      - REQ-007
+      - DEC-006
