@@ -1,5 +1,9 @@
 # Design Direction
 
+## Official wordmarks, 2026-10-25
+
+Use the supplied black/green GTMF1 logo in the white header and the white/green variant in the dark footer. Preserve the source colors and proportions. Web copies trim transparent canvas margins and use 1200×188 intrinsic dimensions, displaying at 148px in the desktop header, 132px on mobile and 180px in the footer. The green F1 portion on a white square provides browser/touch icons. Use the compact navigation through 1100px so the wider official logo has enough space. Reference: `SRC-BRAND-LOGO-001`, `REQ-017`.
+
 ## Revenue-flow CTA illustration, 2026-10-25
 
 Replace the unexplained circular orb with a compact SVG system map. Show the five GTM functions already named in the approved hero copy feeding one shared GTMF1 revenue system, with a single pipeline output. Draw existing connectors once on viewport entry and hold the completed map; pause offscreen or while the page is hidden, and show the static complete map for reduced motion. Keep the forest background, gold data paths, white labels, CTA copy, and responsive hierarchy. Reference: `SRC-CTA-ART-001`.

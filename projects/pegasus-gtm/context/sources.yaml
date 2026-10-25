@@ -1,5 +1,22 @@
 version: 1
 sources:
+  - id: SRC-BRAND-LOGO-001
+    type: client-brand-assets
+    path: context/brand
+    roles:
+      - visual
+      - explicit-requirement
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      User supplied gtmmm-01.png and gtmmm-02.png and requested adding the official
+      logos wherever needed and redeploying. Both originals are retained unchanged.
+      First has black GTM with green F1; second has white GTM with green F1 on a
+      transparent background. Web derivatives trim empty margins and resize without
+      changing the artwork colors. The F1 portion provides browser and touch icons.
+    extracted_items:
+      - REQ-017
   - id: SRC-NAV-MEGAMENU-001
     type: user-screenshot
     path: context/reference-mega-menu.png

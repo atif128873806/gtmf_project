@@ -1,5 +1,7 @@
 # Context Index
 
+- `SRC-BRAND-LOGO-001`: User-provided official GTMF1 black/green and white/green transparent PNG wordmarks, 2026-10-25. Originals retained in `context/brand`; `REQ-017` uses the first in the light header, the second in the dark footer and the F1 mark for browser/touch icons. User authorized redeployment.
+
 - `SRC-CTA-ART-001`: User screenshot of the closing CTA’s unexplained circular orb, 2026-10-25. Explicit request replaces it with a more relevant animated graphic. `REQ-015` shows five GTM functions connecting through one GTMF1 revenue system into pipeline.
 
 - `SRC-NAV-MEGAMENU-001`: Client-reference screenshot of a full-width categorized navbar menu, supplied 2026-10-25 and retained at `context/reference-mega-menu.png`. Selected aspects are categorized columns, concise link descriptions and hover discovery; `REQ-016` adapts these to GTMF1 content, palette, local anchors, keyboard and touch. Reference brand, copy and colors are excluded.

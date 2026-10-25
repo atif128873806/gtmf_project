@@ -43,7 +43,7 @@ navGroups.forEach((group) => {
     const trigger = one('[data-nav-trigger]', group);
     trigger?.addEventListener('click', (event) => {
         const isOpen = trigger.getAttribute('aria-expanded') === 'true';
-        const desktopHover = innerWidth > 1000 && matchMedia('(hover: hover) and (pointer: fine)').matches;
+        const desktopHover = innerWidth > 1100 && matchMedia('(hover: hover) and (pointer: fine)').matches;
         if (event.detail === 0 || desktopHover) {
             openNavGroup(group);
             return;
@@ -64,13 +64,13 @@ navGroups.forEach((group) => {
     });
 
     group.addEventListener('pointerenter', (event) => {
-        if (event.pointerType !== 'touch' && matchMedia('(hover: hover) and (pointer: fine)').matches && innerWidth > 1000) {
+        if (event.pointerType !== 'touch' && matchMedia('(hover: hover) and (pointer: fine)').matches && innerWidth > 1100) {
             openNavGroup(group);
         }
     });
 
     group.addEventListener('pointerleave', (event) => {
-        if (event.pointerType === 'touch' || innerWidth <= 1000) return;
+        if (event.pointerType === 'touch' || innerWidth <= 1100) return;
         const hoveredElement = document.elementFromPoint(event.clientX, event.clientY);
         if (hoveredElement && group.contains(hoveredElement)) return;
         navCloseTimer = window.setTimeout(() => closeNavGroups(), 120);

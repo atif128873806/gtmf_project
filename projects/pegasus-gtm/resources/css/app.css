@@ -1006,7 +1006,7 @@
 .nav-mega__all:hover span,.nav-mega__all:focus-visible span{transform:translateX(3px)}
 .nav-mega :focus-visible{outline:2px solid var(--gold);outline-offset:4px;border-radius:2px}
 @keyframes nav-mega-enter{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
-@media(max-width:1000px){
+@media(max-width:1100px){
     .header__inner{min-height:66px}
     .menu-toggle{display:block}
     .primary-nav{display:none;position:absolute;top:100%;left:0;right:0;align-items:stretch;gap:0;padding:8px 18px 18px;background:#0e0d0f;border-top:1px solid #29272a}
@@ -1029,3 +1029,9 @@
     .nav-mega__item small{max-width:48ch}
 }
 @media(prefers-reduced-motion:reduce){.nav-mega,.nav-chevron,.nav-mega__all span{animation:none!important;transition:none!important}}
+
+/* Client-supplied wordmarks keep their original colors and aspect ratio. */
+.brand{flex-shrink:0}
+.brand .brand__logo{display:block;width:148px;height:auto;object-fit:contain}
+.brand--footer .brand__logo{width:180px}
+@media(max-width:760px){.brand .brand__logo{width:132px}.brand--footer .brand__logo{width:180px}}
