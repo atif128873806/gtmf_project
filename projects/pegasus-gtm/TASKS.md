@@ -1,5 +1,9 @@
 # Task State
 
+Sound familiar layout fix, 2026-10-25: added clear summary separation, responsive CTA/link wrapping and two-column mobile role tabs. Browser verified desktop/mobile gap and pain-tool overflow; Vite build passed. Local only; pending deployment.
+
+RevOps revision, 2026-10-25: applied the four client checkbox descriptions verbatim. Existing independent role counts out of four and shared review CTA retained. Pint and the homepage test passed (seven assertions); browser confirmed exact copy, selection persistence, independent counts and zero-state CTA. Local only; pending deployment.
+
 Marketing Leaders revision, 2026-10-25: replaced the four marketing checkbox descriptions verbatim from the client request. Existing tab-specific counter and shared Revenue Infrastructure Review CTA retained. Pint and the homepage test passed (seven assertions); browser confirmed exact rendered copy, independent role counts, retained selections and reset to zero. Local only; pending deployment.
 
 Sound familiar revision, 2026-10-25: applied exact client intro, four Sales Leaders checkbox descriptions and review CTA. Changed global 16-checkbox counter to active-role count out of four; switching tabs restores each role's independent selections. Review brief receives active-role selections only. Browser interaction verification passed across all four tabs; Pint, five PHP tests (16 assertions), and Vite build passed. Local only; pending deployment.

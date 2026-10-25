@@ -89,11 +89,13 @@
 .pain-option{min-height:82px;padding:17px 16px;border:1px solid transparent;border-radius:14px;background:#fff;font-size:14px;line-height:1.45}
 .pain-option:has(input:checked){border-color:#21483a;background:#fff}
 .checkbox-mark{width:18px;height:18px;border-color:#dcdce2;border-radius:5px;background:#fff}
-.pain-summary{margin-top:0;padding:18px 20px;border:0;border-radius:15px;background:#0a0a0c;color:white;gap:8px 12px}
+.pain-summary{margin-top:24px;padding:20px;border:0;border-radius:15px;background:#0a0a0c;color:white;gap:12px}
 .pain-summary>strong{font:600 26px/1 Inter,ui-sans-serif,sans-serif;color:#fff}
 .pain-summary>span,.pain-summary p{color:#aaa9af;font-size:12px}
 .pain-summary p{flex:1 1 100%;margin:0 0 5px}
-.pain-summary .button{min-height:43px}
+.pain-summary .button{min-height:43px;max-width:100%;padding-block:12px;line-height:1.4;text-align:center;white-space:normal}
+.pain-summary .text-link{max-width:100%;padding-block:4px;line-height:1.5;white-space:normal}
+@media(max-width:600px){.pain-tool>.segmented{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:4px;overflow:visible;border-radius:16px}.pain-tool>.segmented button{min-width:0;min-height:44px;padding:8px 10px;font-size:12px;white-space:normal}.pain-summary{margin-top:20px}.pain-summary .text-link{flex-basis:100%}}
 .text-link--gold{color:#d8b98a}
 .revenue-os{background:#fff}
 .os-board{max-width:1200px;padding:28px 34px 24px;border:1px solid #eaeaee;border-radius:18px;background:#fff;box-shadow:0 12px 30px #0a0a0c0c}
