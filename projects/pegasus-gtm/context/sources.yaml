@@ -1,5 +1,43 @@
 version: 1
 sources:
+  - id: SRC-TOOLS-001
+    type: brand-assets
+    path: public/assets/tools
+    roles:
+      - visual
+      - explicit-requirement
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      User requested tool strip sequence Salesforce, HubSpot, Marketo, Clay, n8n,
+      Gong, 6 Sense, Lean Data, Slack, Zendesk, Snowflake, Stripe. Existing Figma
+      logos retained where available; seven additional official-site assets are
+      stored locally. Marketo's official app favicon currently uses Adobe branding.
+      Zendesk's transparent padding is clipped with CSS; artwork is unchanged.
+    source_urls:
+      - https://app.marketo.com/favicon.ico
+      - https://www.gong.io/marketing-assets/favicon.svg
+      - https://6si-static.s3.amazonaws.com/favicon.ico
+      - https://www.leandata.com/favicon.svg
+      - https://web-assets.zendesk.com/zendesk/pages/company/brand-guidelines/z.png
+      - https://www.snowflake.com/etc.clientlibs/snowflake-site/clientlibs/clientlib-react/resources/favicon-96x96.png?v=3
+      - https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg
+  - id: SRC-GTMF1-002
+    type: client-image
+    path: public/assets/client/unified-revenue-engine.png
+    roles:
+      - explicit-requirement
+      - visual
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      Original client PNG supplied as Unified Revenue Engine RevOps Infographic.png.
+      User explicitly requested replacing the hero mock interface with this image
+      while preserving the website theme. Copied unchanged and rendered at its
+      natural 1672-by-941 aspect ratio. Metrics inside the supplied artwork are
+      client-provided image content, not independently verified results.
   - id: SRC-FIGMA-001
     type: figma-design
     path: https://www.figma.com/design/G2NLV1j3E2tNPGNxKsDsbV/revops?node-id=7-5692&m=dev

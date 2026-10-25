@@ -1,5 +1,11 @@
 # Task State
 
+Tool strip revision, 2026-10-25: applied all 12 requested brands in exact order and sourced missing icons as local assets. Verified all image loads, rendered order and desktop/mobile grid widths in browser. Blade compilation and Vite build passed; pending deployment.
+
+Third client revision, 2026-10-25: replaced the hero mock interface with the unchanged client-supplied infographic (`SRC-GTMF1-002`). Added image dimensions, descriptive alternative text, and scoped responsive CSS without a fixed height or cropping. Blade compilation and Vite production build passed with existing build notices; local browser confirmed image loading and preserved proportions. Pending deployment.
+
+Second client revision, 2026-10-25: applied the exact two hero CTA labels and three supporting points supplied by the user. “See How We Work” navigates to the existing engagement process section. Changes are local and pending deployment.
+
 Client revision, 2026-10-25: updated the hero description in `resources/views/home.blade.php` verbatim from the user's first client change. This copy connects Sales, Marketing, Customer Success, Finance, and Operations. Verified the exact source text and successfully compiled Blade templates with `php artisan view:cache --no-interaction`. Applied locally; not yet published to Hostinger.
 
 | ID | Work | Status | Evidence |

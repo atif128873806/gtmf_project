@@ -54,30 +54,17 @@
                     <h1 id="hero-title">Build a GTM engine<br>that thinks, moves<br>and scales faster.</h1>
                     <p class="hero__lede">GTMF1 is a Revenue Infrastructure Partner. We design the systems, data, automation, and AI that connect Sales, Marketing, Customer Success, Finance, and Operations, helping teams operate more efficiently, scale with confidence, and make better decisions.</p>
                     <div class="button-row">
-                        <a class="button button--light" href="#brief-form">Book a GTM systems review</a>
-                        <a class="button button--outline-light" href="#revenue-os">Explore Revenue OS</a>
+                        <a class="button button--light" href="#brief-form">Book a Revenue Infrastructure Review</a>
+                        <a class="button button--outline-light" href="#engagement-title">See How We Work</a>
                     </div>
                     <ul class="trust-points" aria-label="How we work">
-                        <li><span aria-hidden="true">✓</span> Built in your stack, owned by you</li>
-                        <li><span aria-hidden="true">✓</span> Sharper every week</li>
-                        <li><span aria-hidden="true">✓</span> Written scope before any build</li>
+                        <li><span aria-hidden="true">✓</span> Built around your existing stack</li>
+                        <li><span aria-hidden="true">✓</span> Connects teams, systems and data</li>
+                        <li><span aria-hidden="true">✓</span> Designed to scale with your business</li>
                     </ul>
                 </div>
-                <div class="hero-visual" aria-label="Illustrative revenue operations interface">
-                    <div class="mock-window mock-window--accounts">
-                        <div class="mock-window__bar"><span class="window-dots"><i></i><i></i><i></i></span><strong>Target accounts · all regions</strong></div>
-                        <div class="mock-table mock-table--hero">
-                            <div class="mock-table__head"><span>Account</span><span>Signal</span><span>Tier</span><span>Owner</span><span>Status</span></div>
-                            <div><b><i class="company-mark company-mark--accent">HF</i> Halden Freight</b><span>Hiring: RevOps lead</span><em class="tag tag--accent">T1</em><span>Sofia R.</span><em class="tag">Routed</em></div>
-                            <div><b><i class="company-mark company-mark--gold">CH</i> Corva Health</b><span>New CRO, 14 days in role</span><em class="tag tag--accent">T1</em><span>Omar S.</span><em class="tag tag--cream">Sequenced</em></div>
-                            <div><b><i class="company-mark">BS</i> Brightline Steel</b><span>Opened 2 sales roles</span><em class="tag">T2</em><span>Rohan M.</span><em class="tag">Enriched</em></div>
-                            <div><b><i class="company-mark company-mark--gold">TE</i> Tessel Energy</b><span>Visited pricing twice</span><em class="tag tag--accent">T1</em><span>Layla H.</span><em class="tag">Routed</em></div>
-                            <div><b><i class="company-mark company-mark--accent">MR</i> Marlow Realty</b><span>Moved to HubSpot</span><em class="tag">T2</em><span>Lukas W.</span><em class="tag">Enriched</em></div>
-                        </div>
-                    </div>
-                    <div class="mock-window mock-window--rule"><div class="mock-window__bar"><span class="window-dots"><i></i><i></i><i></i></span><strong>Tier rule</strong></div><code><b>T1</b> if hiring in sales or RevOps<br>&nbsp;&nbsp;and 50–1,000 employees<br>&nbsp;&nbsp;and uses HubSpot, Salesforce or Zoho<br><b>T2</b> if two of the three</code></div>
-                    <div class="mock-window mock-window--coverage"><div class="mock-window__bar"><span class="window-dots"><i></i><i></i><i></i></span><strong>Work email coverage</strong></div><p>Provider A <span class="meter"><i style="--meter:62%"></i></span><small>62%</small></p><p>+ Provider B <span class="meter"><i style="--meter:81%"></i></span><small>81%</small></p><p>+ Provider C <span class="meter"><i style="--meter:88%"></i></span><small>88%</small></p></div>
-                    <div class="mock-window mock-window--notification"><div class="notification__brand">G</div><div><strong>GTMF1</strong> <small>11:02</small><p>New T1 lead from Tessel Energy routed to <b>Layla H.</b> Respond by 11:17.</p><span class="mini-button">Open in CRM</span><span class="mini-button">Snooze</span></div></div>
+                <div class="hero-visual hero-visual--infographic">
+                    <img src="{{ asset('assets/client/unified-revenue-engine.png') }}" width="1672" height="941" decoding="async" alt="RevOps connects existing business tools and Marketing, Sales, Customer Success, Finance, and Operations through data foundations, system design, automation, AI, and enablement.">
                 </div>
             </div>
         </section>
@@ -86,8 +73,8 @@
             <div class="container">
                 <p>Built inside the tools you already run</p>
                 <ul class="tool-list">
-                    @foreach ([['hubspot','HubSpot'],['salesforce','Salesforce'],['zoho','Zoho CRM'],['clay','Clay'],['n8n','n8n'],['apollo','Apollo'],['instantly','Instantly'],['smartlead','Smartlead'],['slack','Slack']] as [$logo, $name])
-                        <li><img src="{{ asset('assets/figma/logo-'.$logo.'.png') }}" width="20" height="20" alt=""><span>{{ $name }}</span></li>
+                    @foreach ([['figma/logo-salesforce.png', 'Salesforce', 'salesforce'], ['figma/logo-hubspot.png', 'HubSpot', 'hubspot'], ['tools/marketo.ico', 'Marketo', 'marketo'], ['figma/logo-clay.png', 'Clay', 'clay'], ['figma/logo-n8n.png', 'n8n', 'n8n'], ['tools/gong.svg', 'Gong', 'gong'], ['tools/6sense.ico', '6 Sense', '6sense'], ['tools/leandata.svg', 'Lean Data', 'leandata'], ['figma/logo-slack.png', 'Slack', 'slack'], ['tools/zendesk.png', 'Zendesk', 'zendesk'], ['tools/snowflake.png', 'Snowflake', 'snowflake'], ['tools/stripe.svg', 'Stripe', 'stripe']] as [$logo, $name, $tool])
+                        <li><span class="tool-logo tool-logo--{{ $tool }}"><img src="{{ asset('assets/'.$logo) }}" width="20" height="20" alt=""></span><span>{{ $name }}</span></li>
                     @endforeach
                 </ul>
             </div>

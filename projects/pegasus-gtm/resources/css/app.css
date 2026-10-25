@@ -54,12 +54,23 @@
 .hero .button{min-height:54px;padding-inline:26px;font-size:16px}
 .trust-points{margin-top:20px;gap:12px 26px;color:#fff;font-size:13.5px}
 .hero-visual{width:min(100%,1100px);height:560px;margin:54px auto 0;padding:28px 32px;overflow:hidden;border:1px solid #e8dece;border-radius:24px;background:#f5ede0;box-shadow:0 24px 60px #35122130}
+.hero-visual.hero-visual--infographic{width:100%;max-width:1100px;height:auto;padding:0;transform:none;background:#fff}
+.hero-visual--infographic img{display:block;width:100%;height:auto;object-fit:contain}
+
 .mock-window{border-color:#e4d9c8;border-radius:10px;box-shadow:0 14px 32px #3a2b1c16}
 .mock-window--accounts{top:7%;left:4%;right:auto;width:66%;}
 .mock-window--rule{top:7%;left:auto;right:4%;width:29%;}
 .mock-window--coverage{left:6%;right:auto;bottom:5%;width:33%;}
 .mock-window--notification{left:auto;right:6%;bottom:7%;width:34%;}
 .tool-strip{background:#0a0a0c;border-color:#2e2e35}
+.tool-list{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px 16px;align-items:center}
+.tool-list li{justify-content:center;gap:8px;white-space:nowrap}
+.tool-logo{position:relative;display:grid;place-items:center;width:20px;height:20px;flex:0 0 20px;overflow:hidden;border-radius:4px}
+.tool-list .tool-logo img{display:block;width:20px;height:20px;object-fit:contain}
+.tool-logo--zendesk{background:#fff}
+.tool-list .tool-logo--zendesk img{position:absolute;left:50%;top:50%;width:64px;height:48px;max-width:none;transform:translate(-50%,-50%)}
+@media(min-width:1200px){.tool-list{grid-template-columns:repeat(12,minmax(0,1fr));gap:10px}.tool-list li{font-size:10.5px;gap:6px}}
+@media(max-width:760px){.tool-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 10px}}
 .section{padding:120px 0}
 .section-heading h2,.services-intro h2,.code-copy h2,.agents-heading h2,.brief-container h2,.cta-band h2{font-weight:600;letter-spacing:-.045em}
 .section-heading p,.services-intro p,.agents-heading>div>p,.code-copy>p:not(.eyebrow){color:#6b6b73}
