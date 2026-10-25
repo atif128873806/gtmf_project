@@ -1,5 +1,7 @@
 # Task State
 
+Client revision, 2026-10-25: updated the hero description in `resources/views/home.blade.php` verbatim from the user's first client change. This copy connects Sales, Marketing, Customer Success, Finance, and Operations. Verified the exact source text and successfully compiled Blade templates with `php artisan view:cache --no-interaction`. Applied locally; not yet published to Hostinger.
+
 | ID | Work | Status | Evidence |
 | --- | --- | --- | --- |
 | PG-001 | Create isolated Laravel project and record source scope | done | Laravel 13.37 installed; source/requirements/architecture/design/decision docs added. |

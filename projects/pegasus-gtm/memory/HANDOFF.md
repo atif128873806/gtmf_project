@@ -1,5 +1,7 @@
 # GTMF1 Handoff
 
+Latest client revision (2026-10-25): replaced only the hero description in `resources/views/home.blade.php` with the user's exact supplied wording: “GTMF1 is a Revenue Infrastructure Partner. We design the systems, data, automation, and AI that connect Sales, Marketing, Customer Success, Finance, and Operations, helping teams operate more efficiently, scale with confidence, and make better decisions.” This supersedes the earlier hero paragraph from the HTML source. Applied locally; this revision has not been deployed to Hostinger. Further client changes will arrive individually.
+
 Status: GTMF1 identity and supplied service context are applied; the site is deployed to Hostinger at https://darkred-opossum-511094.hostingersite.com/. User selected dark forest green `#21483A` as the only palette change in place of Figma burgundy `#7A1E3A`.
 
 - Production deployment completed on 2026-10-19 using a versioned release outside the public web root. The production `.env` and Laravel storage live outside `public_html`; the previously served Hostinger placeholder was backed up before the public entry point changed. PHP CLI was 8.4.26 while the website handler initially used 8.3.35; the site-local Hostinger handler now selects PHP 8.4.26. No SSH password was entered or written to deployment files.

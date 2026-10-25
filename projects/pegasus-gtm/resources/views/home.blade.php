@@ -52,7 +52,7 @@
                 <div class="hero__copy">
                     <p class="eyebrow eyebrow--light"><span class="eyebrow__dot"></span>AI-powered Revenue Operations</p>
                     <h1 id="hero-title">Build a GTM engine<br>that thinks, moves<br>and scales faster.</h1>
-                    <p class="hero__lede">GTMF1 is a Revenue Infrastructure Partner. We design the systems, data, automation and AI that help sales and marketing teams operate, scale and make better decisions.</p>
+                    <p class="hero__lede">GTMF1 is a Revenue Infrastructure Partner. We design the systems, data, automation, and AI that connect Sales, Marketing, Customer Success, Finance, and Operations, helping teams operate more efficiently, scale with confidence, and make better decisions.</p>
                     <div class="button-row">
                         <a class="button button--light" href="#brief-form">Book a GTM systems review</a>
                         <a class="button button--outline-light" href="#revenue-os">Explore Revenue OS</a>
