@@ -1,4 +1,5 @@
-   <div class="pillar-sequence-art" data-node-id="7:3018">
+   <div class="pillar-sequence-art" data-node-id="7:3018" data-motion-sequence="outbound-story" data-motion-state="waiting" role="img" aria-label="Four-step hiring-signal sequence: Sofia replies after the second touch, so the last two steps are skipped and a meeting is booked. Meetings this week increase from 12 to 13.">
+      <span class="sequence-route-packet" aria-hidden="true"></span>
       <div class="absolute inset-0 opacity-[calc(100/100)]" data-node-id="7:2814" data-name="Vector">
         <img alt="" class="absolute block inset-0 max-w-none size-full" src="{{ asset('assets/figma/pillars/pillar-sequence-imgvector.svg') }}" />
       </div>
@@ -172,7 +173,7 @@
         <div class="absolute inset-[43.59%_6.59%_15.38%_6.59%] opacity-[calc(100/100)]" data-node-id="7:2924" data-name="Vector">
           <img alt="" class="absolute block inset-0 max-w-none size-full" src="{{ asset('assets/figma/pillars/pillar-sequence-imgvector14.svg') }}" />
         </div>
-        <p class="[word-break:break-word] absolute font-[family-name:'Inter:Bold'] font-[700] inset-[57.56%_8.15%_28.42%_8.24%] leading-[normal] not-italic opacity-[calc(100/100)] text-[color:#1a1416] text-[length:9.988px] text-center whitespace-nowrap" data-node-id="7:2925">{`"Thursday works. Send an invite?"`}</p>
+        <p class="[word-break:break-word] absolute font-[family-name:'Inter:Bold'] font-[700] inset-[57.56%_8.15%_28.42%_8.24%] leading-[normal] not-italic opacity-[calc(100/100)] text-[color:#1a1416] text-[length:9.988px] text-center whitespace-nowrap" data-node-id="7:2925">"Thursday works. Send an invite?"</p>
       </div>
       <div class="absolute inset-[38.89%_3.33%_30%_58.75%] opacity-0" data-node-id="7:2943" data-name="Frame">
         <div class="absolute inset-0 opacity-[calc(100/100)]" data-node-id="7:2944" data-name="Vector">

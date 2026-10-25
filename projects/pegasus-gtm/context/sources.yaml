@@ -1,5 +1,130 @@
 version: 1
 sources:
+  - id: SRC-NAV-MEGAMENU-001
+    type: user-screenshot
+    path: context/reference-mega-menu.png
+    roles:
+      - structure
+      - ux
+      - visual
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      User asked to adapt the screenshot's categorized, full-width navigation panel to
+      Revenue OS, Services and Industries so hover reveals useful grouped links. The
+      reference shows categorized columns, concise descriptions and a dark panel below
+      the header. The site uses only existing GTMF1 content, the approved forest/black/gold
+      theme and local anchors; screenshot brand, text and colors are not reused.
+    extracted_items:
+      - REQ-016
+  - id: SRC-SEQUENCE-ART-001
+    type: user-screenshot
+    path: context/outbound-sequence-animation-issue.png
+    roles:
+      - explicit-requirement
+      - visual
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      User requested a studied, distinctive animation for the hiring-signal sequence
+      illustration. Figma component 7:3018 has a 2-second looping timeline with 12
+      members; most progression, reply, skipped-step, booked-meeting and KPI outcome
+      layers are otherwise hidden. The adapted story uses the existing Figma states:
+      Sofia replies after step 2, stopping the remaining cadence, then books a meeting
+      and increments the weekly meeting count from 12 to 13.
+    extracted_items:
+      - REQ-014
+  - id: SRC-WORKFLOW-ART-001
+    type: user-screenshot
+    path: context/workflow-automation-animation-issue.png
+    roles:
+      - explicit-requirement
+      - visual
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      User screenshot of the inbound-workflow diagram where every stage and branch
+      appears static and the status bar remains on “Running…”. Figma frame 7:2798
+      has a two-second looping 22-node timeline; it chiefly flashes short connector
+      pips and step outlines while the route outputs remain static and its existing
+      Success state stays hidden. User asked for the section's animation to clearly
+      visualize the workflow.
+    extracted_items:
+      - REQ-013
+  - id: SRC-SIGNAL-ART-001
+    type: user-screenshot
+    path: context/signals-feed-animation-issue.png
+    roles:
+      - explicit-requirement
+      - visual
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      Screenshot of the Figma signals-and-research artwork after its partial motion,
+      showing one visible signal card and an empty feed. Figma node 7:2482 contains
+      four prepared signal/result rows; its two-second loop fully reveals one and
+      briefly reveals a second. User asked for an understandable, complete animation.
+    extracted_items:
+      - REQ-012
+  - id: SRC-DATA-ART-001
+    type: user-screenshot
+    path: context/revenue-record-animation-issue.png
+    roles:
+      - explicit-requirement
+      - visual
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      Screenshot of the data-foundation account illustration in its initial skeleton
+      state at 0% completeness. User asked to study and complete its animation. The
+      Figma frame is node 7:1755 and its coordinated timeline root is node 7:3370.
+      The implementation now reveals all six existing field values, advances the
+      existing completeness steps through 100%, fills the existing meter and holds
+      the completed state after the on-entry sequence.
+    extracted_items:
+      - REQ-011
+  - id: SRC-GTMF1-004
+    type: html-reference
+    path: context/gtmf1_revops_redesign_v4.html
+    roles:
+      - content
+      - reference
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      User requested analysis and comparison only. Original HTML preserved unchanged
+      and reviewed in an isolated local browser preview. V4 uses a nine-section
+      dark/gold layout, Salesforce/HubSpot-focused positioning, regrouped services,
+      Claude-specific agentic workflows, a 500+ system-build claim, flexible hourly/
+      project/ongoing engagements, a 30-minute call offer and a larger contact form.
+      The form only prevents submission and displays a success message; no capture,
+      sending, storage or booking integration exists. V4 differs from the approved
+      forest theme, recent hero/CTA/12-tool-strip revisions, fixed-fee review copy,
+      interactive four-role checklist, framework images and other Figma sections.
+      After comparison, the user approved selective content adoption while preserving
+      the approved design and recent revisions (DEC-009). Relevant CRM, integration,
+      reporting and Claude workflow context is now incorporated into existing services,
+      AI and FAQ copy. V4's visual redesign, numerical claims, altered commercial offer
+      and contact workflow remain unadopted.
+  - id: SRC-GTMF1-003
+    type: client-image
+    path: public/assets/client/revenue-operations-framework.png
+    roles:
+      - explicit-requirement
+      - visual
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      User supplied GTMF1 Revenue Operations Framework.png and explicitly requested
+      replacing the six-layer framework board with this image. Original PNG copied
+      unchanged; natural dimensions 1448 by 1086. Rendered responsively without cropping.
   - id: SRC-TOOLS-001
     type: brand-assets
     path: public/assets/tools
@@ -84,3 +209,19 @@ sources:
     extracted_items:
       - REQ-007
       - DEC-006
+  - id: SRC-CTA-ART-001
+    type: user-screenshot
+    path: context/cta-orbit-issue.png
+    roles:
+      - explicit-requirement
+      - visual
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      User identified the final CTA's concentric circle and decorative dots as unclear
+      and requested a different animated graphic. Requirement REQ-015 replaces that
+      orb with a GTMF1 revenue-flow visualization using the functions and business
+      outcome already named in approved site copy.
+    extracted_items:
+      - REQ-015

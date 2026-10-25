@@ -1,4 +1,4 @@
-   <div class="pillar-workflow-art" data-node-id="7:2798">
+   <div class="pillar-workflow-art" data-node-id="7:2798" data-motion-sequence="workflow-run" data-motion-state="complete">
       <div class="absolute inset-0 opacity-[calc(100/100)]" data-node-id="7:2525" data-name="Vector">
         <img alt="" class="absolute block inset-0 max-w-none size-full" src="{{ asset('assets/figma/pillars/pillar-workflow-imgvector.svg') }}" />
       </div>

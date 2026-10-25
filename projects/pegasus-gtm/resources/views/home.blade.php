@@ -19,22 +19,72 @@
                 <span class="sr-only">Open menu</span><span class="menu-toggle__icon" aria-hidden="true"></span>
             </button>
             <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation" data-primary-nav>
-                <a href="#revenue-os">Revenue OS</a>
                 <div class="nav-group" data-nav-group>
-                    <button type="button" class="nav-menu-button" aria-expanded="false" data-nav-trigger>Services <span class="nav-chevron" aria-hidden="true"></span></button>
-                    <div class="nav-dropdown" data-nav-panel hidden>
-                        <a href="#services">GTM engineering</a>
-                        <a href="#services">RevOps</a>
-                        <a href="#agents">AI agents</a>
+                    <button type="button" class="nav-menu-button" id="nav-revenue-os-trigger" aria-expanded="false" aria-controls="nav-revenue-os-panel" data-nav-trigger>Revenue OS <span class="nav-chevron" aria-hidden="true"></span></button>
+                    <div class="nav-mega" id="nav-revenue-os-panel" role="region" aria-labelledby="nav-revenue-os-trigger" data-nav-panel hidden>
+                        <div class="nav-mega__inner container">
+                            <div class="nav-mega__column">
+                                <p class="nav-mega__eyebrow">The framework</p>
+                                <a class="nav-mega__item" href="#revenue-os"><span>Signal</span><small>Find the right accounts, buyers and buying signals.</small></a>
+                                <a class="nav-mega__item" href="#revenue-os"><span>Context</span><small>Keep CRM and account data clean, complete and usable.</small></a>
+                            </div>
+                            <div class="nav-mega__column">
+                                <p class="nav-mega__eyebrow">How it runs</p>
+                                <a class="nav-mega__item" href="#revenue-os"><span>Agents and automation</span><small>Remove manual work with workflows, routing and AI.</small></a>
+                                <a class="nav-mega__item" href="#revenue-os"><span>Flow, Pulse and Loop</span><small>Connect handoffs, trusted reporting and ongoing improvement.</small></a>
+                            </div>
+                            <div class="nav-mega__column nav-mega__column--feature">
+                                <p class="nav-mega__eyebrow">Built inside your stack</p>
+                                <p class="nav-mega__summary">Six connected layers that turn your existing GTM stack into scalable revenue infrastructure.</p>
+                                <a class="nav-mega__all" href="#revenue-os">Explore Revenue OS <span aria-hidden="true">→</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="nav-group" data-nav-group>
-                    <button type="button" class="nav-menu-button" aria-expanded="false" data-nav-trigger>Industries <span class="nav-chevron" aria-hidden="true"></span></button>
-                    <div class="nav-dropdown" data-nav-panel hidden>
-                        <a href="#industries">Manufacturing</a>
-                        <a href="#industries">Logistics</a>
-                        <a href="#industries">B2B SaaS</a>
-                        <a href="#industries">Healthcare</a>
+                    <button type="button" class="nav-menu-button" id="nav-services-trigger" aria-expanded="false" aria-controls="nav-services-panel" data-nav-trigger>Services <span class="nav-chevron" aria-hidden="true"></span></button>
+                    <div class="nav-mega" id="nav-services-panel" role="region" aria-labelledby="nav-services-trigger" data-nav-panel hidden>
+                        <div class="nav-mega__inner container">
+                            <div class="nav-mega__column">
+                                <p class="nav-mega__eyebrow">Systems and operations</p>
+                                <a class="nav-mega__item" href="#services"><span>GTM engineering</span><small>Connect Salesforce, HubSpot and the tools around them.</small></a>
+                                <a class="nav-mega__item" href="#services"><span>RevOps</span><small>Align lifecycle, pipeline, permissions and governance.</small></a>
+                            </div>
+                            <div class="nav-mega__column">
+                                <p class="nav-mega__eyebrow">Data and execution</p>
+                                <a class="nav-mega__item" href="#services"><span>Marketing operations</span><small>Connect campaign activity, account signals and pipeline reporting.</small></a>
+                                <a class="nav-mega__item" href="#plays"><span>GTM workflows</span><small>Build routing, enrichment and signal-led plays in your tools.</small></a>
+                            </div>
+                            <div class="nav-mega__column nav-mega__column--feature">
+                                <p class="nav-mega__eyebrow">Practical AI</p>
+                                <a class="nav-mega__item" href="#agents"><span>AI agents</span><small>Support research, data quality and pipeline inspection, with people reviewing important actions.</small></a>
+                                <a class="nav-mega__all" href="#services">See all services <span aria-hidden="true">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-group" data-nav-group>
+                    <button type="button" class="nav-menu-button" id="nav-industries-trigger" aria-expanded="false" aria-controls="nav-industries-panel" data-nav-trigger>Industries <span class="nav-chevron" aria-hidden="true"></span></button>
+                    <div class="nav-mega" id="nav-industries-panel" role="region" aria-labelledby="nav-industries-trigger" data-nav-panel hidden>
+                        <div class="nav-mega__inner nav-mega__inner--industries container">
+                            <div class="nav-mega__column">
+                                <p class="nav-mega__eyebrow">Complex operations</p>
+                                <a class="nav-mega__item" href="#industries"><span>Manufacturing and industrial</span><small>CRM architecture and connected distributor workflows.</small></a>
+                                <a class="nav-mega__item" href="#industries"><span>Logistics and supply chain</span><small>Lifecycle, routing and automation across lanes and regions.</small></a>
+                                <a class="nav-mega__item" href="#industries"><span>Real estate and proptech</span><small>Consistent lead management and follow-up.</small></a>
+                            </div>
+                            <div class="nav-mega__column">
+                                <p class="nav-mega__eyebrow">Relationship-led teams</p>
+                                <a class="nav-mega__item" href="#industries"><span>Professional services</span><small>Revenue processes and reporting that support growing teams.</small></a>
+                                <a class="nav-mega__item" href="#industries"><span>Banking, financial services and insurance</span><small>Governed CRM and data workflows for consistent reporting.</small></a>
+                            </div>
+                            <div class="nav-mega__column nav-mega__column--feature">
+                                <p class="nav-mega__eyebrow">Technology and care</p>
+                                <a class="nav-mega__item" href="#industries"><span>B2B SaaS and technology</span><small>Connected GTM platforms, lifecycle definitions and practical automation.</small></a>
+                                <a class="nav-mega__item" href="#industries"><span>Healthcare and life sciences</span><small>GTM systems and data operations for complex workflows.</small></a>
+                                <a class="nav-mega__all" href="#industries">Explore industries <span aria-hidden="true">→</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <a href="#plays">Resources</a>
@@ -109,15 +159,9 @@
 
         <section class="section revenue-os" id="revenue-os" aria-labelledby="os-title">
             <div class="container">
-                <div class="section-heading section-heading--wide"><h2 id="os-title">GTMF1 Revenue Operations</h2><p>Six layers, built inside your stack and improved every week. A framework you own, not a platform you rent.</p></div>
-                <div class="os-board">
-                    <div class="os-layers">
-                        @foreach ($layers as [$name, $tag, $description, $owner])
-                            <div class="os-layer"><span class="os-layer__number">{{ $loop->iteration }}</span><strong>{{ $name }}</strong><span class="os-layer__tag">{{ $tag }}</span><p>{{ $description }}</p><small>{{ $owner }}</small></div>
-                        @endforeach
-                    </div>
-                    <div class="os-cycle" aria-hidden="true"><span>weekly</span><svg viewBox="0 0 90 360" role="presentation"><path d="M5 4C78 4 78 350 5 350" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m1 344 4 7 6-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></div>
-                    <div class="os-foundation">Built inside your stack: CRM, data warehouse, sequencer, ad platforms, Slack</div>
+                <h2 id="os-title" class="sr-only">GTMF1 Revenue Operations</h2>
+                <div class="revenue-framework-image">
+                    <img src="{{ asset('assets/client/revenue-operations-framework.png') }}" width="1448" height="1086" alt="GTMF1 Revenue Operations: six connected layers—Signal, Context, Agents, Flow, Pulse, and Loop—turn your existing GTM stack into scalable revenue infrastructure.">
                 </div>
                 <div class="button-row button-row--center"><a class="button button--primary" href="#revenue-os">Explore Revenue OS</a><a class="button button--outline" href="#brief-form">Book a GTM systems review</a></div>
             </div>
@@ -199,7 +243,7 @@
                     <ul class="check-list"><li>Versioned, so every change has an author and a reason</li><li>Documented, with a runbook for when a step fails</li><li>Portable across HubSpot, Salesforce and Zoho</li></ul>
                     <div class="button-row"><a class="button button--primary" href="#services">Explore GTM engineering</a><a class="button button--outline" href="#services">Explore RevOps</a></div>
                 </div>
-                <div class="code-window" aria-label="Example documented GTM workflow configuration"><div class="code-window__tabs"><span>plays/hiring-signal.yaml</span><span>route.ts</span><span>pipeline.sql</span></div><pre><code><span class="code-comment"># Hiring-signal outbound · every region you sell into</span>
+                <div class="code-window" data-code-typing aria-label="Example documented GTM workflow configuration"><div class="code-window__tabs"><span>plays/hiring-signal.yaml</span><span>route.ts</span><span>pipeline.sql</span></div><pre><code><span class="code-comment"># Hiring-signal outbound · every region you sell into</span>
 play: hiring-signal-outbound
 market:
   regions: [americas, emea, apac]
@@ -228,21 +272,31 @@ report:
 
         <section class="brief-section" id="brief-form" aria-labelledby="brief-title">
             <div class="container brief-container">
-                <h2 id="brief-title">What do you want to build?</h2>
-                <form class="brief-form" method="post" action="{{ route('review-brief.store') }}">
-                    @csrf
-                    <label for="brief" class="sr-only">Describe the play, market and tools you run today</label>
-                    <textarea id="brief" name="brief" rows="3" maxlength="1200" minlength="8" placeholder="Describe the play, the market and the tools you run today" aria-describedby="brief-error brief-note" data-brief-field>{{ old('brief') }}</textarea>
-                    <button class="button button--gold" type="submit">Send to the review</button>
-                </form>
-                @error('brief')<p class="form-error" id="brief-error" role="alert">{{ $message }}</p>@else<p class="sr-only" id="brief-error"></p>@enderror
-                @if (session('status'))<p class="form-success" role="status">{{ session('status') }}</p>@endif
-                <div class="brief-examples" aria-label="Example briefs">
-                    <button type="button" data-brief-suggestion="Find operations directors at logistics companies in Europe and North America with 100 to 1,000 employees">Find operations directors at logistics companies in Europe and North America with 100 to 1,000 employees</button>
-                    <button type="button" data-brief-suggestion="Route every demo request to the right rep by country and company size within 15 minutes">Route every demo request to the right rep by country and company size within 15 minutes</button>
-                    <button type="button" data-brief-suggestion="Clean up our HubSpot so the pipeline report matches what sales says in the Monday meeting">Clean up our HubSpot so the pipeline report matches what sales says in the Monday meeting</button>
+                <div class="brief-layout">
+                    <div class="brief-header">
+                        <h2 id="brief-title">What do you want to build?</h2>
+                        <p class="brief-note" id="brief-note">Your brief is validated on this page. It is not sent or stored.</p>
+                    </div>
+                    <div class="brief-panel">
+                        <form class="brief-form" method="post" action="{{ route('review-brief.store') }}">
+                            @csrf
+                            <label class="brief-form__label" for="brief">Describe the play, market and tools you run today</label>
+                            <textarea id="brief" name="brief" rows="5" maxlength="1200" minlength="8" required placeholder="Describe the play, the market and the tools you run today" aria-describedby="brief-error brief-note brief-hint" aria-invalid="{{ $errors->has('brief') ? 'true' : 'false' }}" data-brief-field>{{ old('brief') }}</textarea>
+                            <div class="brief-form__footer">
+                                <span class="brief-form__hint" id="brief-hint">8–1,200 characters</span>
+                                <button class="button button--gold" type="submit">Send to the review</button>
+                            </div>
+                        </form>
+                        @error('brief')<p class="form-error" id="brief-error" role="alert">{{ $message }}</p>@else<p class="sr-only" id="brief-error"></p>@enderror
+                        @if (session('status'))<p class="form-success" role="status">{{ session('status') }}</p>@endif
+                    </div>
                 </div>
-                <p class="brief-note" id="brief-note">Your brief is validated on this page. It is not sent or stored.</p>
+                <div class="brief-examples-header"><h3>Start with an example</h3><p>Select one to fill your brief.</p></div>
+                <div class="brief-examples" aria-label="Example briefs">
+                    @foreach ([['Find target accounts', 'Find operations directors at logistics companies in Europe and North America with 100 to 1,000 employees'], ['Route inbound leads', 'Route every demo request to the right rep by country and company size within 15 minutes'], ['Clean up CRM reporting', 'Clean up our HubSpot so the pipeline report matches what sales says in the Monday meeting']] as [$title, $example])
+                        <button type="button" data-brief-suggestion="{{ $example }}"><span class="brief-example__title">{{ $title }}</span><svg class="brief-example__icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M10 4v12M4 10h12"/></svg><span class="brief-example__copy">{{ $example }}</span></button>
+                    @endforeach
+                </div>
             </div>
         </section>
 
@@ -260,8 +314,22 @@ report:
 
         <section class="section section--cream agents" aria-labelledby="agents-title">
             <div class="container">
-                <div class="agents-heading"><div><p class="eyebrow">AI agents</p><h2 id="agents-title">Agents that do the busywork, with a person in the loop</h2></div><div><p>Research before every call, first answers to inbound enquiries, CRM clean-up, call notes and first drafts. Each agent works inside your tools, shows its sources, and hands anything that matters to a person.</p><div class="button-row"><a class="button button--primary" href="#agents">Explore AI agents</a><a class="button button--outline" href="#brief-form">Book a GTM systems review</a></div></div></div>
-                <div class="agent-board"><div class="agent-flow">@foreach ([['Trigger','A meeting, a form, a stale deal'],['Agent works','Reads your CRM, documents and the web'],['Draft or action','A brief, a reply, a field update'],['Human review','Approve, edit or reject'],['Write back and log','CRM updated, every step recorded']] as [$title,$copy])<article class="agent-node"><b>{{ $title }}</b><p>{{ $copy }}</p></article>@endforeach</div><div class="agent-evaluate"><strong>Evaluate</strong><span>Weekly, on a test set built from your real cases</span></div><p class="agent-board__note">Nothing important leaves without a person seeing it. Every run is logged and measured.</p></div>
+                <div class="agents-heading"><div><h2 id="agents-title">Agents that do the busywork, with a person in the loop</h2></div><div><p>Account research, data quality checks, call summaries and pipeline inspection, including Claude-based workflows connected to Salesforce, HubSpot, Slack and your GTM tools. People review data changes and customer-facing actions before they run.</p><div class="button-row"><a class="button button--primary" href="#agents">Explore AI agents</a><a class="button button--outline" href="#brief-form">Book a GTM systems review</a></div></div></div>
+                <div class="agent-board">
+                    <ol class="agent-flow" aria-label="How an agent workflow runs">
+                        @foreach ([['Trigger','A meeting, a form, a stale deal'],['Agent works','Reads your CRM, documents and the web'],['Draft or action','A brief, a reply, a field update'],['Human review','Approve, edit or reject'],['Write back and log','CRM updated, every step recorded']] as $index => [$title, $copy])
+                            <li class="agent-node{{ $index === 3 ? ' agent-node--review' : '' }}">
+                                <span class="agent-node__marker" aria-hidden="true"></span>
+                                <b>{{ $title }}</b>
+                                <p>{{ $copy }}</p>
+                            </li>
+                        @endforeach
+                    </ol>
+                    <div class="agent-evaluate">
+                        <p><strong>Evaluate</strong><span>Weekly, on a test set built from your real cases</span></p>
+                        <p class="agent-board__note">Nothing important leaves without a person seeing it. Every run is logged and measured.</p>
+                    </div>
+                </div>
                 <ul class="agent-promises"><li>Approved by a person before anything reaches a customer</li><li>Every run logged, every agent measured on your real cases</li><li>Runs on the model provider your security team approves</li></ul>
             </div>
         </section>
@@ -274,24 +342,34 @@ report:
 
         <section class="section services" id="services" aria-labelledby="services-title">
             <div class="container services-layout"><div class="services-intro"><h2 id="services-title">What we do</h2><p>Three services that share one CRM. Most teams start with one and add the others.</p></div><div class="service-list">
-                <article class="service-card"><span class="service-card__icon"><img src="{{ asset('assets/figma/service-engineering.svg') }}" width="24" height="24" alt=""></span><h3>GTM engineering</h3><p>Build the GTM systems that connect signals, enrichment, scoring, routing and outreach across the tools your team already uses.</p><ul><li>Signal-driven outbound</li><li>Enrichment across providers</li><li>Lead and account routing</li></ul><a href="#services">View GTM engineering <span aria-hidden="true">›</span></a></article>
-                <article class="service-card"><span class="service-card__icon"><img src="{{ asset('assets/figma/service-revops.svg') }}" width="24" height="24" alt=""></span><h3>RevOps</h3><p>Align lifecycle, funnel, lead management, routing, governance and forecasting so teams work from shared definitions and trusted reporting.</p><ul><li>CRM architecture and clean-up</li><li>Pipeline and forecast definitions</li><li>Dashboards and attribution</li></ul><a href="#services">View RevOps <span aria-hidden="true">›</span></a></article>
-                <article class="service-card"><span class="service-card__icon"><img src="{{ asset('assets/figma/service-agents.svg') }}" width="24" height="24" alt=""></span><h3>AI agents</h3><p>Apply AI and automation to research, enrichment, prioritization, data operations and rep productivity, with people reviewing important actions.</p><ul><li>GTM and RevOps agents</li><li>Renewals, customer health and churn risk</li><li>Competitor and market intelligence</li></ul><a href="#agents">View AI workflows <span aria-hidden="true">›</span></a></article>
+                <article class="service-card"><span class="service-card__icon"><img src="{{ asset('assets/figma/service-engineering.svg') }}" width="24" height="24" alt=""></span><h3>GTM engineering</h3><p>Connect Salesforce, HubSpot and the tools around them so leads, accounts, deals and customer data move cleanly across your stack.</p><ul><li>Signal-driven outbound</li><li>Enrichment across providers</li><li>Lead routing and handoffs</li><li>Zapier, Make and n8n workflows</li></ul><a href="#services">View GTM engineering <span aria-hidden="true">›</span></a></article>
+                <article class="service-card"><span class="service-card__icon"><img src="{{ asset('assets/figma/service-revops.svg') }}" width="24" height="24" alt=""></span><h3>RevOps</h3><p>Audit, clean up and redesign Salesforce and HubSpot, aligning lifecycle, pipeline, permissions and governance around trusted reporting.</p><ul><li>CRM architecture and clean-up</li><li>Flows, workflows and validation</li><li>Pipeline and forecast reporting</li><li>Dashboards and attribution</li></ul><a href="#services">View RevOps <span aria-hidden="true">›</span></a></article>
+                <article class="service-card"><span class="service-card__icon"><img src="{{ asset('assets/figma/service-agents.svg') }}" width="24" height="24" alt=""></span><h3>AI agents</h3><p>Build practical AI workflows, including Claude-based agentic setups, for research, data quality checks and pipeline inspection, with people reviewing important actions.</p><ul><li>GTM and RevOps agents</li><li>Research, enrichment and summarization</li><li>Renewals, customer health and churn risk</li><li>Competitor and market intelligence</li></ul><a href="#agents">View AI workflows <span aria-hidden="true">›</span></a></article>
             </div></div>
         </section>
 
         <section class="section engagement" aria-labelledby="engagement-title">
-            <div class="container"><div class="section-heading section-heading--wide"><h2 id="engagement-title">How an engagement runs</h2><p>The same four steps whatever we build. The first one is small, fixed-fee and useful on its own.</p></div><div class="engagement-board">
-                @foreach ([['Review','Fixed fee','Written findings on your stack, data and process. Yours whether or not you hire us.'],['Scope','Signed first','What we build, what we do not, which tools it touches, and who owns each part.'],['Build','Weekly releases','Inside your tools. The old way keeps running until the new flow is proven.'],['Hand over','Yours','Documentation, recorded training, and admin access in your name.']] as [$title,$tag,$copy])<article class="engagement-step"><span class="engagement-step__number">{{ $loop->iteration }}</span><h3>{{ $title }}</h3><span class="os-layer__tag">{{ $tag }}</span><p>{{ $copy }}</p></article>@endforeach
-                <div class="engagement-loop" aria-hidden="true"></div><p class="engagement-note">Optional: ongoing support, published hours, cancellable</p>
-            </div></div>
+            <div class="container">
+                <div class="section-heading section-heading--wide"><h2 id="engagement-title">How an engagement runs</h2><p>The same four steps whatever we build. The first one is small, fixed-fee and useful on its own.</p></div>
+                <ol class="engagement-board" aria-label="Four steps in a GTMF1 engagement">
+                    @foreach ([['Review','Fixed fee','Written findings on your stack, data and process. Yours whether or not you hire us.'],['Scope','Signed first','What we build, what we do not, which tools it touches, and who owns each part.'],['Build','Weekly releases','Inside your tools. The old way keeps running until the new flow is proven.'],['Hand over','Yours','Documentation, recorded training, and admin access in your name.']] as [$title, $tag, $copy])
+                        <li class="engagement-step{{ $loop->first ? ' engagement-step--first' : '' }}">
+                            <span class="engagement-step__number" aria-hidden="true">{{ $loop->iteration }}</span>
+                            <h3>{{ $title }}</h3>
+                            <span class="engagement-step__meta">{{ $tag }}</span>
+                            <p>{{ $copy }}</p>
+                        </li>
+                    @endforeach
+                </ol>
+                <p class="engagement-note">Optional: ongoing support, published hours, cancellable</p>
+            </div>
         </section>
 
         <section class="section section--cream faq" id="faq" aria-labelledby="faq-title">
             <div class="container faq-layout"><h2 id="faq-title">Questions we<br>get on most calls</h2><div class="faq-list">@foreach ($faqs as $faq)<details class="faq-item"><summary>{{ $faq['question'] }}<span class="faq-item__icon" aria-hidden="true"></span></summary><div class="faq-item__answer"><p>{{ $faq['answer'] }}</p></div></details>@endforeach</div></div>
         </section>
 
-        <section class="cta-band" aria-labelledby="cta-title"><div class="container cta-band__inner"><div><h2 id="cta-title">Rebuild your revenue<br>engine for the AI era</h2><p>Start with a fixed-fee GTM systems review. We map your stack against the six layers of Revenue OS, and you keep the findings whether or not you work with us.</p><div class="button-row"><a class="button button--light" href="#brief-form">Book a GTM systems review</a><a class="button button--outline-light" href="#plays">See the plays</a></div></div><div class="orbit-art" aria-hidden="true"><i></i><i></i><i></i></div></div></section>
+        <section class="cta-band" aria-labelledby="cta-title"><div class="container cta-band__inner"><div><h2 id="cta-title">Rebuild your revenue<br>engine for the AI era</h2><p>Start with a fixed-fee GTM systems review. We map your stack against the six layers of Revenue OS, and you keep the findings whether or not you work with us.</p><div class="button-row"><a class="button button--light" href="#brief-form">Book a GTM systems review</a><a class="button button--outline-light" href="#plays">See the plays</a></div></div><div class="cta-flow-art" data-motion-sequence="cta-flow" data-motion-state="complete" aria-hidden="true"><svg viewBox="0 0 440 260" role="presentation" focusable="false"><g class="cta-flow__teams"><text x="4" y="43">Sales</text><text x="4" y="88">Marketing</text><text x="4" y="133">Customer success</text><text x="4" y="178">Finance</text><text x="4" y="223">Operations</text></g><g class="cta-flow__routes"><path class="cta-flow__route cta-flow__route--one" pathLength="1" d="M112 39 C155 39 156 88 204 91"/><path class="cta-flow__route cta-flow__route--two" pathLength="1" d="M112 84 C154 84 165 108 204 111"/><path class="cta-flow__route cta-flow__route--three" pathLength="1" d="M112 129 H204"/><path class="cta-flow__route cta-flow__route--four" pathLength="1" d="M112 174 C154 174 165 150 204 147"/><path class="cta-flow__route cta-flow__route--five" pathLength="1" d="M112 219 C155 219 156 170 204 167"/></g><g class="cta-flow__source-dots"><circle cx="112" cy="39" r="3"/><circle cx="112" cy="84" r="3"/><circle cx="112" cy="129" r="3"/><circle cx="112" cy="174" r="3"/><circle cx="112" cy="219" r="3"/></g><g class="cta-flow__core"><rect x="204" y="70" width="146" height="118" rx="6"/><path class="cta-flow__core-rule" d="M220 123 H334"/><text class="cta-flow__brand" x="220" y="96">GTMF1</text><text class="cta-flow__label" x="220" y="112">REVENUE SYSTEM</text><text class="cta-flow__capability" x="220" y="143">DATA</text><text class="cta-flow__capability" x="261" y="143">FLOW</text><text class="cta-flow__capability" x="309" y="143">AI</text><circle cx="229" cy="164" r="3"/><circle cx="277" cy="164" r="3"/><circle cx="325" cy="164" r="3"/></g><path class="cta-flow__output" pathLength="1" d="M350 129 H422"/><path class="cta-flow__arrow" d="M415 122 L422 129 L415 136"/></svg></div></div></section>
     </main>
 
     <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="brand brand--footer" href="{{ route('home') }}" aria-label="GTMF1 home"><span class="brand__wordmark">GTMF1</span></a><p>GTMF1 designs and delivers RevOps, CRM and GTM systems, marketing operations, data, automation, AI workflows and migrations.</p></div>

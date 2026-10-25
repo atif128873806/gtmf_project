@@ -1,4 +1,4 @@
-   <div class="pillar-signals-art" data-node-id="7:2482">
+   <div class="pillar-signals-art" data-node-id="7:2482" data-motion-sequence="signals-feed" data-motion-state="complete">
       <div class="absolute inset-0 opacity-[calc(100/100)]" data-node-id="7:1805" data-name="Vector">
         <img alt="" class="absolute block inset-0 max-w-none size-full" src="{{ asset('assets/figma/pillars/pillar-signals-imgvector.svg') }}" />
       </div>
