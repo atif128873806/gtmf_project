@@ -1,5 +1,7 @@
 # Task State
 
+Sound familiar revision, 2026-10-25: applied exact client intro, four Sales Leaders checkbox descriptions and review CTA. Changed global 16-checkbox counter to active-role count out of four; switching tabs restores each role's independent selections. Review brief receives active-role selections only. Browser interaction verification passed across all four tabs; Pint, five PHP tests (16 assertions), and Vite build passed. Local only; pending deployment.
+
 Tool strip revision, 2026-10-25: applied all 12 requested brands in exact order and sourced missing icons as local assets. Verified all image loads, rendered order and desktop/mobile grid widths in browser. Blade compilation and Vite build passed; pending deployment.
 
 Third client revision, 2026-10-25: replaced the hero mock interface with the unchanged client-supplied infographic (`SRC-GTMF1-002`). Added image dimensions, descriptive alternative text, and scoped responsive CSS without a fixed height or cropping. Blade compilation and Vite production build passed with existing build notices; local browser confirmed image loading and preserved proportions. Pending deployment.

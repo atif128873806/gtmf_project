@@ -84,7 +84,7 @@
             <div class="container split-layout">
                 <div class="section-heading section-heading--sticky">
                     <h2 id="pains-title">Sound familiar?</h2>
-                    <p>Every one of these leaks pipeline, rep time or trust in the number. Tick what is true for you, in any role, and we will bring a plan for the biggest one to the call.</p>
+                    <p>Every one of these issues costs you pipeline, time, or confidence in your data. Select what sounds familiar and we’ll bring a focused plan to the call.</p>
                 </div>
                 <div class="pain-tool" data-pain-tool>
                     <div class="segmented" role="tablist" aria-label="Choose your role">
@@ -102,7 +102,7 @@
                             </div>
                         </div>
                     @endforeach
-                    <div class="pain-summary" aria-live="polite"><strong data-pain-count>0</strong><span>of 16 ticked</span><p>Tick the ones that are true for you, in any role.</p><a class="button button--gold" href="#brief-form" data-brief-from-pains>Book a review with these in the brief</a><a class="text-link text-link--gold" href="#home-wf">Not ready? See the difference on one workflow <span aria-hidden="true">↓</span></a></div>
+                    <div class="pain-summary" aria-live="polite"><strong data-pain-count>0</strong><span>of 4 selected</span><p>Select what sounds familiar.</p><a class="button button--gold" href="#brief-form" data-brief-from-pains>Book a Revenue Infrastructure Review</a><a class="text-link text-link--gold" href="#home-wf">Not ready? See the difference on one workflow <span aria-hidden="true">↓</span></a></div>
                 </div>
             </div>
         </section>

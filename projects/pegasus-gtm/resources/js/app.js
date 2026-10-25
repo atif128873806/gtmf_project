@@ -54,12 +54,23 @@ function activateTabs(buttons, onActivate) {
     });
 }
 
+function selectedRolePains() {
+    const panel = one('[data-role-panel]:not([hidden])');
+    return panel ? all('input[name="pains[]"]:checked', panel) : [];
+}
+
+function updatePainSummary() {
+    const count = one('[data-pain-count]');
+    if (count) count.textContent = String(selectedRolePains().length);
+}
+
 const roleTabs = all('[data-role-tab]');
 activateTabs(roleTabs, (button) => {
     roleTabs.forEach((tab) => tab.setAttribute('aria-selected', String(tab === button)));
     all('[data-role-panel]').forEach((panel) => {
         panel.hidden = panel.dataset.rolePanel !== button.dataset.roleTab;
     });
+    updatePainSummary();
 });
 
 const workflowTabs = all('[data-workflow-tab]');
@@ -78,21 +89,16 @@ activateTabs(playTabs, (button) => {
     });
 });
 
-// Count checked issues and carry them into the local review brief form.
+// Count the active role's issues and carry those selections into the review brief.
 const painTool = one('[data-pain-tool]');
 if (painTool) {
     const checkboxes = all('input[name="pains[]"]', painTool);
-    const count = one('[data-pain-count]', painTool);
     const reviewLink = one('.button--gold', painTool);
-    const updatePainSummary = () => {
-        const selected = checkboxes.filter((checkbox) => checkbox.checked);
-        count.textContent = String(selected.length);
-    };
     checkboxes.forEach((checkbox) => checkbox.addEventListener('change', updatePainSummary));
     updatePainSummary();
 
     reviewLink?.addEventListener('click', () => {
-        const selected = checkboxes.filter((checkbox) => checkbox.checked);
+        const selected = selectedRolePains();
         if (!selected.length || !briefField) return;
         briefField.value = selected.map((checkbox) => checkbox.parentElement.innerText.trim()).join('; ');
         briefField.dispatchEvent(new Event('input', { bubbles: true }));
