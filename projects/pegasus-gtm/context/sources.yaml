@@ -1,5 +1,20 @@
 version: 1
 sources:
+  - id: SRC-FRAMEWORK-CTA-001
+    type: user-screenshot
+    path: context/revenue-framework-cta-reference.png
+    roles:
+      - explicit-requirement
+    authority: user-approved
+    processing_status: processed
+    received_at: '2026-10-25'
+    summary: >-
+      User requested relabeling the two buttons below the Revenue Operations framework
+      to Book a Revenue Infrastructure Review and See How We Work, then redeploying.
+      Primary action targets the existing brief form; secondary action targets the
+      existing engagement section, consistent with the approved hero actions.
+    extracted_items:
+      - REQ-018
   - id: SRC-BRAND-LOGO-001
     type: client-brand-assets
     path: context/brand

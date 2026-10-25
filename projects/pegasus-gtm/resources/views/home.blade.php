@@ -163,7 +163,7 @@
                 <div class="revenue-framework-image">
                     <img src="{{ asset('assets/client/revenue-operations-framework.png') }}" width="1448" height="1086" alt="GTMF1 Revenue Operations: six connected layers—Signal, Context, Agents, Flow, Pulse, and Loop—turn your existing GTM stack into scalable revenue infrastructure.">
                 </div>
-                <div class="button-row button-row--center"><a class="button button--primary" href="#revenue-os">Explore Revenue OS</a><a class="button button--outline" href="#brief-form">Book a GTM systems review</a></div>
+                <div class="button-row button-row--center"><a class="button button--primary" href="#brief-form">Book a Revenue Infrastructure Review</a><a class="button button--outline" href="#engagement-title">See How We Work</a></div>
             </div>
         </section>
 

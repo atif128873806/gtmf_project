@@ -1,5 +1,7 @@
 # Context Index
 
+- `SRC-FRAMEWORK-CTA-001`: User screenshot and exact button-label revision for the Revenue Operations framework, 2026-10-25. `REQ-018` aligns this pair with the approved hero review/process actions and includes redeployment.
+
 - `SRC-BRAND-LOGO-001`: User-provided official GTMF1 black/green and white/green transparent PNG wordmarks, 2026-10-25. Originals retained in `context/brand`; `REQ-017` uses the first in the light header, the second in the dark footer and the F1 mark for browser/touch icons. User authorized redeployment.
 
 - `SRC-CTA-ART-001`: User screenshot of the closing CTA’s unexplained circular orb, 2026-10-25. Explicit request replaces it with a more relevant animated graphic. `REQ-015` shows five GTM functions connecting through one GTMF1 revenue system into pipeline.

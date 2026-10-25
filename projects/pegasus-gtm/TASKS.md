@@ -1,5 +1,7 @@
 # Task State
 
+Framework CTA labels, 2026-10-25: `REQ-018` deployed in release `20261025-03`. Updated only the framework pair to “Book a Revenue Infrastructure Review” (`#brief-form`) and “See How We Work” (`#engagement-title`). Blade compilation and five tests (16 assertions) passed; live HTML checks confirmed exact label order and destinations, with homepage/health HTTP 200. Previous release `20261025-02` retained; static assets unchanged.
+
 Official logo update, 2026-10-25: `REQ-017` deployed in release `20261025-02`. Header/footer use supplied dark/light wordmarks; F1 browser/touch icons and root favicon added. Transparent margins trimmed in web derivatives; original assets retained. Navigation breakpoint adjusted to fit the logo. Verified responsive header fit, local/live logo loading, Services menu, icon formats/dimensions, compiled checksums, HTTPS health and absence of browser errors. Five local tests (16 assertions), build, Blade/JS/YAML/diff checks passed. Previous release/public backup retained.
 
 Production update, 2026-10-25: deployed all approved revisions through `REQ-016` in release `20261025-01` from commit `6987222`. Earlier pending/local-only notes below are historical and superseded. Retained the previous release and a public-root backup. Five local tests (16 assertions), production build, live HTTPS/asset checks (186 assets), valid/invalid brief flows, private-environment protection, live menu interactions and browser image/console checks passed. Production environment and storage preserved; no migrations.
