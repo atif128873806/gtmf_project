@@ -1,5 +1,7 @@
 # Task State
 
+Heads of GTM revision, 2026-10-25: applied four exact client descriptions. Verified active-tab count (0–4), independent counts when switching roles, preserved selections, CTA and panel width in browser. Pint and homepage test passed (seven assertions). Local only; pending deployment.
+
 Sound familiar layout fix, 2026-10-25: added clear summary separation, responsive CTA/link wrapping and two-column mobile role tabs. Browser verified desktop/mobile gap and pain-tool overflow; Vite build passed. Local only; pending deployment.
 
 RevOps revision, 2026-10-25: applied the four client checkbox descriptions verbatim. Existing independent role counts out of four and shared review CTA retained. Pint and the homepage test passed (seven assertions); browser confirmed exact copy, selection persistence, independent counts and zero-state CTA. Local only; pending deployment.
