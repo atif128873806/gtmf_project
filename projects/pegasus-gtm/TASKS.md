@@ -1,5 +1,7 @@
 # Task State
 
+Marketing Leaders revision, 2026-10-25: replaced the four marketing checkbox descriptions verbatim from the client request. Existing tab-specific counter and shared Revenue Infrastructure Review CTA retained. Pint and the homepage test passed (seven assertions); browser confirmed exact rendered copy, independent role counts, retained selections and reset to zero. Local only; pending deployment.
+
 Sound familiar revision, 2026-10-25: applied exact client intro, four Sales Leaders checkbox descriptions and review CTA. Changed global 16-checkbox counter to active-role count out of four; switching tabs restores each role's independent selections. Review brief receives active-role selections only. Browser interaction verification passed across all four tabs; Pint, five PHP tests (16 assertions), and Vite build passed. Local only; pending deployment.
 
 Tool strip revision, 2026-10-25: applied all 12 requested brands in exact order and sourced missing icons as local assets. Verified all image loads, rendered order and desktop/mobile grid widths in browser. Blade compilation and Vite build passed; pending deployment.
